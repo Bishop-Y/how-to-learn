@@ -27,11 +27,9 @@
   width: 183.5px;
 }
 
-.header__logo_place_header {
+.logo_place_header {
   background-image: url(../images/logo_place_header.svg);
   position: absolute;
-  height: 32px;
-  width: 183.5px;
   top: 30px;
   left: 64px;
   z-index: 2;
@@ -211,9 +209,11 @@
 
 .feynman__link {
   position: absolute;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
   right: 48px;
-  top: auto;
-  bottom: auto;
+  top: 50%;
   color: #000000;
   text-decoration: none;
 }
@@ -251,10 +251,12 @@
 .kaufman__triangle {
   position: absolute;
   background-image: url(../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
   height: 877px;
   width: 877px;
-  right: -156px;
   top: 0px;
+  right: -210px;
+  left: 877px;
   z-index: 0;
 }
 
@@ -287,7 +289,7 @@
 }
 
 
-.footer__logo_place_footer{
+.logo_place_footer{
   background-image: url(../images/logo_place_footer.svg);
 }
 
