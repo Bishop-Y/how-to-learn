@@ -23,10 +23,12 @@
 }
 
 .logo{
-  background-image: url(../images/logo_place_footer.svg);
+  height: 32px;
+  width: 183.5px;
 }
 
-.logo_place_header {
+.header__logo_place_header {
+  background-image: url(../images/logo_place_header.svg);
   position: absolute;
   height: 32px;
   width: 183.5px;
@@ -36,7 +38,6 @@
 }
 .header__title {
   position: relative;
-  display: flex;
   align-self: center;
   width: 730px;
   left: 64px;
@@ -187,9 +188,8 @@
   background-repeat: no-repeat;
   background-color: #F2F2F2;
   text-align: center;
-  margin-top: 100px;
   padding-top: 100px;
-  padding-bottom: 80px;
+  padding-bottom: 90px;
 }
 
 .feynman__title{
@@ -206,11 +206,14 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  padding-left: 4px;
 }
 
 .feynman__link {
   position: absolute;
   right: 48px;
+  top: auto;
+  bottom: auto;
   color: #000000;
   text-decoration: none;
 }
@@ -226,10 +229,12 @@
 
 .section-title_theme_dark {
   color: white;
+  margin-top: 0px;
 }
 
 .section-subtitle_theme_dark {
   color: white;
+  margin-bottom: 0px;
 }
 
 .table_theme_dark {
@@ -245,9 +250,10 @@
 
 .kaufman__triangle {
   position: absolute;
+  background-image: url(../images/kaufman-triangle.svg);
   height: 877px;
   width: 877px;
-  right: -210px;
+  right: -156px;
   top: 0px;
   z-index: 0;
 }
@@ -272,26 +278,20 @@
 }
 
 .footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   flex-basis: 711px;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
 }
 
 
-.logo_place_footer{
-  position: absolute;
+.footer__logo_place_footer{
   background-image: url(../images/logo_place_footer.svg);
-  height:35px;
-  width: 183.5px;
-  left: 0px;
-  top: 0px;
 }
 
 .footer__author{
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
   margin-top: 18px;
   margin-bottom: 18px;
   line-height: 25px;
@@ -329,11 +329,11 @@
 }
 
 .footer__column_content_social{
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 0px;
 }
 
 .footer__social-icons {
   width: 16px;
   height: 16px; 
+  margin-right: 10px;
 }
