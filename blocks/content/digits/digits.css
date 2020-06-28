@@ -1,0 +1,7 @@
+@import url(../common/section/section-title.css);
+@import url(../common/section/section-subtitle.css);
+@import url(../common/table/table.css);
+
+.digits {
+  margin-bottom: 100px;
+}

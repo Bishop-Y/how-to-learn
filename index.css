@@ -1,0 +1,24 @@
+@import url(./blocks/header/header.css);
+@import url(./blocks/content/description/description.css);
+@import url(./blocks/content/techniques/techniques.css);
+@import url(./blocks/content/video/video.css);
+@import url(./blocks/content/oakley/oakley.css);
+@import url(./blocks/content/feynman/feynman.css);
+@import url(./blocks/content/digits/digits.css);
+@import url(./blocks/content/khan/khan.css);
+@import url(./blocks/content/kaufman/kaufman.css);
+@import url(./blocks/content/resources/resources.css);
+@import url(./blocks/content/footer/footer.css);
+@import url(./vendor/normalize.css);
+@import url(./blocks/rotation/rotation.css);
+
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
