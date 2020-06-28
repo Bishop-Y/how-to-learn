@@ -2,7 +2,7 @@
   position: absolute;
   background-color:  #2f80ed;
   height: 568px;
-  width: 568px;
+  min-width: 568px;
   right: 0px;
   top: 64px;
   z-index: 0;

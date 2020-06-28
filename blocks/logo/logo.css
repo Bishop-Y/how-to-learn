@@ -3,5 +3,5 @@
 
 .logo{
   height: 32px;
-  width: 183.5px;
+  min-width: 183.5px;
 }

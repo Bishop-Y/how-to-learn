@@ -1,9 +1,0 @@
-@import url(../common/section/section-title.css);
-@import url(../common/section/section-subtitle.css);
-@import url(./__iframes/video__iframes.css);
-@import url(./__iframe/video__iframe.css);
-
-.video{
-  margin-top: 100px;
-  background: linear-gradient(to bottom, #ffffff 90%, #f2f2f2 10%);
-}
